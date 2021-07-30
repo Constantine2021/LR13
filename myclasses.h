@@ -9,6 +9,10 @@ class arD {
 public:
 	arD(int);
 	~arD();//Объявление деструктора
-	void set();  void set(int, int); void get(int = 1);
-	int *min_(); int *max_();        void srt(bool = true);
+	void set(); 
+	void set(int, int);
+	void get(int = 1);
+	int *min_(); 
+	int *max_();
+	void srt(bool = true);
 };

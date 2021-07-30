@@ -15,9 +15,11 @@ class AB {
 public:
 	AB() {
 		a = 5; b = 8;
+		cout << "CONSTRUCTOR 1" << endl;
 	};
 	AB(int x, int y = 25) {
 		a = x; b = y;
+		cout << "CONSTRUCTOR 2" << endl;
 	};
 	void set() {
 		cout << "¬ведите значение полей а, b: ";
